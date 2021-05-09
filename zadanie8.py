@@ -1,5 +1,5 @@
 samochody = ['syrena', 'poloneza', 'audi', 'bmw']
-
+print(samochody[2])
 print(len(samochody))
 
 for x in samochody:
