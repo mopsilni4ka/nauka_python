@@ -6,4 +6,5 @@ for x in samochody:
  print(x)
 
 for idx in range(len(samochody)) :
- print("index: " + str(idx) + " : " + samochody[idx])
+ #print(str(idx) + " : " + samochody[idx])
+ print("{0} : {1}".format(idx, samochody[idx]))
